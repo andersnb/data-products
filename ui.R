@@ -13,7 +13,7 @@ shinyUI(pageWithSidebar(
 
 mainPanel(
 	#
-	# display the results of the conversion
+	# display the results 
 	#
 	h3("amount of money to save"),
 	verbatimTextOutput("savings")
